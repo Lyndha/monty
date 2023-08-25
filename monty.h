@@ -8,6 +8,7 @@
 #define STACK 0
 #define QUEUE 1
 #define DELIMS " \n\t\a\b"
+#define  _POSIX_C_SOURCE 200809L
 
 extern char **op_toks;
 
