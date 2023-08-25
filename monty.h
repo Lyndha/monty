@@ -82,4 +82,5 @@ int short_stack_error(unsigned int line_number, char *op);
 int div_error(unsigned int line_number);
 int pchar_error(unsigned int line_number, char *message);
 
+#define _POSIX_C_SOURCE 200809L
 #endif
